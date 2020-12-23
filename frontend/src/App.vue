@@ -13,7 +13,12 @@
 </style>
 <script>
 import Navbar from "@/components/Navbar";
+
 export default {
-  components: {Navbar}
+  components: {Navbar},
+  beforeCreate() {
+    this.$store.commit('setToken', this.$store.getters.tokenFromLocalStorage);
+    this.$store.commit('setUser', this.$store.getters.userFromLocalStorage)
+  }
 }
 </script>

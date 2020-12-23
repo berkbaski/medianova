@@ -41,6 +41,9 @@
 </template>
 
 <script>
+import ErrorHandler from "../utils/error-handler";
+import {Decode} from "../utils/jwt";
+
 export default {
   name: "register",
   data() {
@@ -52,6 +55,18 @@ export default {
   },
   methods: {
     async register() {
+      this.$http.post('/auth/register', {username: this.username, password: this.password})
+          .then(async res => {
+            const token = res.data;
+
+            Decode(token).then(user => {
+              localStorage.setItem('user', JSON.stringify(user))
+              localStorage.setItem('token', token);
+
+              this.$router.push('/')
+            }).catch(ErrorHandler)
+          })
+          .catch(ErrorHandler)
     }
   }
 }

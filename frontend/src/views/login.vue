@@ -36,6 +36,8 @@
 </template>
 
 <script>
+import {Decode} from "@/utils/jwt";
+import ErrorHandler from "@/utils/error-handler";
 
 export default {
   name: "login",
@@ -47,6 +49,18 @@ export default {
   },
   methods: {
     async login() {
+      this.$http.post('/auth/login', {username: this.username, password: this.password})
+          .then(async res => {
+            const token = res.data;
+
+            Decode(token).then(user => {
+              this.$store.commit('setToken', token);
+              this.$store.commit('setUser', user);
+
+              this.$router.push('/')
+            }).catch(ErrorHandler)
+          })
+          .catch(ErrorHandler)
     }
   }
 }
