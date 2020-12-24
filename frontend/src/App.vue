@@ -22,3 +22,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.cursor-pointer {
+  cursor: pointer;
+}
+</style>

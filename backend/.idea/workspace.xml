@@ -5,7 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="703a8592-59df-404b-b9cb-9ebbeacb969b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/routes/users.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/Todo/EmptyState/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/const/http-header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/const/token.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/const/token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database-connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database-connection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/todos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/todos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Todo/Add/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Todo/Add/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Todo/Footer/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Todo/Footer/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Todo/Item/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Todo/Item/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/Todo/List/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/Todo/List/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/views/register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/views/register.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608711303554</updated>
-      <workItem from="1608711304722" duration="5110000" />
+      <workItem from="1608711304722" duration="15936000" />
+      <workItem from="1608771718438" duration="9368000" />
     </task>
     <servers />
   </component>
@@ -64,5 +87,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

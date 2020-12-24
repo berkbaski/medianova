@@ -23,7 +23,7 @@
           </b-input-group>
           <b-input-group class="justify-content-center align-items-center mt-5">
             <label class="mb-0">I dont have an account.</label>
-            <router-link to="login" class="ml-2">
+            <router-link to="register" class="ml-2">
               <h5 class="mb-0">
                 Create one!
               </h5>
@@ -60,7 +60,10 @@ export default {
               this.$router.push('/')
             }).catch(ErrorHandler)
           })
-          .catch(ErrorHandler)
+          .catch(err => {
+            alert('Wrong username or password')
+            ErrorHandler(err)
+          })
     }
   }
 }

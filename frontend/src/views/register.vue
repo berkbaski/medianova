@@ -66,7 +66,10 @@ export default {
               this.$router.push('/')
             }).catch(ErrorHandler)
           })
-          .catch(ErrorHandler)
+          .catch((err) => {
+            alert('This username is already taken')
+            ErrorHandler(err)
+          })
     }
   }
 }

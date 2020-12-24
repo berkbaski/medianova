@@ -6,6 +6,9 @@ const todosSchema = new mongoose.Schema(
         description: {
             type: String,
         },
+        createdUserId: {
+            type: String,
+        },
         isDone: {
             type: Boolean,
         },
